@@ -1,5 +1,5 @@
 # SortFilesPhysical
-Sort the physical order of a folder
+Sort a folders contents in physical order
 
 Sometimes it is necessary to physically sort the contents of a directory. This can be done by moving the contents piece by piece to a temporary folder.
 
