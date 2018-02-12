@@ -5,5 +5,5 @@ Sometimes it is necessary to physically sort the contents of a directory. This c
 
 The script requests the folder whose contents are to be sorted and moves the contents piece by piece to a folder called "sorted".
 
-After the script has finished the contents of the folder "XXXX" can be moved to the desired position.
+After the script has finished the contents of the folder "sorted" can be moved to the desired position in filesystem.
 
