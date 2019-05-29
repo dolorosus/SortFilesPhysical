@@ -8,14 +8,23 @@
 
 OnAutoItExitRegister("term")
 
-Global Const $sSplashTitle = "Files physisch sortieren"
-Global Const $csFldrCreErr="Ordnerliste konnte nicht erstellt werden. Error_:%d Extended_:%s\n"
-Global Const $csFldrSearchMsg = "Ordner suchen"
-Global Const $csFldrSortErr="Ordnerliste konnte nicht sortiert werden. Error_:%s Extended_:%s\n"
-Global Const $csFlistCreErr="Dateiliste %s konnte nicht erstellt werden. Error_:%s Extended_:%s\n"
-Global Const $csFlistSortErr="Dateiliste konnte nicht sortiert werden. Error_:%s Extended_:%s\n"
-Global Const $csDryRunMsg="DryRun no execution"
-Global Const $csFmoveErr="Filemove %s to %s fehlgeschlagen\n"
+; Global Const $sSplashTitle = "Files physisch sortieren"
+; Global Const $csFldrCreErr="Ordnerliste konnte nicht erstellt werden. Error_:%d Extended_:%s\n"
+; Global Const $csFldrSearchMsg = "Ordner suchen"
+; Global Const $csFldrSortErr="Ordnerliste konnte nicht sortiert werden. Error_:%s Extended_:%s\n"
+; Global Const $csFlistCreErr="Dateiliste %s konnte nicht erstellt werden. Error_:%s Extended_:%s\n"
+; Global Const $csFlistSortErr="Dateiliste konnte nicht sortiert werden. Error_:%s Extended_:%s\n"
+; Global Const $csDryRunMsg="DryRun no execution"
+; Global Const $csFmoveErr="Filemove %s to %s fehlgeschlagen\n"
+;
+Global Const $sSplashTitle = "Sort Files physical"
+Global Const $csFldrCreErr="Could not create folderlist. Error_:%d Extended_:%s\n"
+Global Const $csFldrSearchMsg = "Find folder"
+Global Const $csFldrSortErr="Folderlist could not be created. Error_:%s Extended_:%s\n"
+Global Const $csFlistCreErr="Filelist %s could not be created. Error_:%s Extended_:%s\n"
+Global Const $csFlistSortErr="Filelist could not be sorted. Error_:%s Extended_:%s\n"
+Global Const $csDryRunMsg="Dryrun no execution"
+Global Const $csFmoveErr="Filemove %s to %s failed\n"
 
 sortFiles()
 
